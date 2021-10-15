@@ -1,0 +1,31 @@
+{
+    "Input": [
+        {"label": "CSV", "data": {"code": "", "parameters": [
+            ]}},
+        {"label": "Excel", "data": {"code": "", "parameters": [
+            ]}}
+    ],
+    "Pre built Functions": [
+        {"label": "input", "data": {"code": "", "parameters": [
+            {"a": {"value": 10}, "b": {"value": 10}}]}},
+        {"label": "custom_code", "data": {"code": "", "parameters": [
+            {"dataframe": {"value": 10}, "b": {"value": 10}}]}},
+        {"label": "get_velocity", "data": {"code": "", "parameters": [
+            {"a": {"value": 10}, "b": {"value": 10}}]}},
+        {"label": "getFFT", "data": {"code": "", "parameters": [
+            {"fs": {"value": 10}, "b": {"value": 10 , "description" : ""  }}]}},
+        {"label": "chebyshev_highpass", "data": {"code": "", "parameters": [{"a": {"value": 10}, "b": {"value": 10}}]}},
+        {"label": "hello.py.py", "data": {"code": "", "parameters": [{"a": {"value": 10}, "b": {"value": 10}}]}}
+    ]
+
+    ,
+    "Custom": [
+        {"label": "Custom Code", "data": {"code": "", "parameters": []}}
+    ]
+     ,
+    "Graph": [
+        {"label": "Time Series", "data": {"code": "", "parameters": []}},
+        {"label": "Bar Graph", "data": {"code": "", "parameters": []}},
+        {"label": "Scatter Plot", "data": {"code": "", "parameters": []}}
+    ]
+}
