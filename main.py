@@ -18,6 +18,7 @@ class Api:
         self.app.config['PYTHON']='python'
         self.app.config['CORS_HEADERS'] = 'Content-Type:application/json'
         self.app.config['SCRIPT_BASE_PATH'] = os.path.join('C:',os.sep,'Users','osbajpai','iot-platform','iot','Scripts')
+        # self.app.config['SCRIPT_BASE_PATH'] = os.path.join('home','azureuser','userdata')
         self.app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
         self.app.config['SQLALCHEMY_DATABASE_URI'] = "postgresql://postgres:Pass2020!@localhost:5432/signalProcessing"
         CORS(self.app,resources={r"/*": {"origins": "*"}})
